@@ -7,6 +7,9 @@
   --charizard1: #fac;
   --charizard2: #ddccaa;
   --charizardfront: url(https://assets.codepen.io/13471/charizard-gx.webp);
+  --charizard11: #fac;
+  --charizard12: #ddccaa;
+  --charizardfront: url(https://assets.codepen.io/13471/charizard-gx.webp);
   --pika1: #54a29e;
   --pika2: #a79d66;
   --pikafront: url(https://assets.codepen.io/13471/pikachu-gx.webp);
@@ -151,6 +154,11 @@
   --front: url(Rayquaza.png);
 }
 .card.charizard {
+  --color1: var(--charizard1);
+  --color2: var(--charizard2);
+  --front: var(--charizardfront);
+}
+.card.charizard1 {
   --color1: var(--charizard1);
   --color2: var(--charizard2);
   --front: var(--charizardfront);
